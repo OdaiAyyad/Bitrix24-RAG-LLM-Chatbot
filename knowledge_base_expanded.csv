@@ -1,0 +1,503 @@
+id,category,question,answer,difficulty,tags,source,has_image_reference
+1,Login,How do I reset my password?,"Step 1: Go to the login page
+Step 2: Click 'Forgot Password' link below the login button
+Step 3: Enter your registered email address
+Step 4: Check your email for a password reset link (arrives within 5 minutes)
+Step 5: Click the link in the email to open the password reset form
+Step 6: Enter your new password (minimum 8 characters, include uppercase, lowercase, numbers)
+Step 7: Confirm your new password by typing it again
+Step 8: Click 'Reset Password' button
+Step 9: Return to login page and sign in with your new password",Easy,password reset account access,Company FAQ,No
+2,Login,I forgot my username. How can I recover it?,"Step 1: Go to the login page
+Step 2: Click 'Forgot Username' link near 'Forgot Password'
+Step 3: Enter your registered email address
+Step 4: Click 'Send Recovery Link'
+Step 5: Check your email for your username
+Step 6: If no email received, check spam folder
+Step 7: If still not found, contact support with your registered email
+Step 8: Return to login page and enter your username",Easy,username recovery account access,Company FAQ,No
+3,Technical,Why am I getting 'Invalid credentials' error?,"Step 1: Verify you are entering the correct username (not email unless that's your username)
+Step 2: Check that CAPS LOCK is not turned on
+Step 3: Ensure your password is correct (passwords are case-sensitive)
+Step 4: If unsure about password, use 'Forgot Password' option
+Step 5: Clear your browser cache and cookies, then try again
+Step 6: Try logging in from a different browser
+Step 7: If error persists, contact support with your username",Medium,login errors troubleshooting,Company FAQ,No
+4,Technical,How do I enable two-factor authentication (2FA)?,"Step 1: Log into your account
+Step 2: Go to Settings (top-right corner or menu)
+Step 3: Click 'Security' or 'Account Security'
+Step 4: Find 'Two-Factor Authentication' option
+Step 5: Click 'Enable 2FA'
+Step 6: Choose your 2FA method (authenticator app, SMS, or email)
+Step 7: If using authenticator app, download Google Authenticator or Microsoft Authenticator
+Step 8: Scan the QR code displayed on screen with your authenticator app
+Step 9: Enter the 6-digit code from your authenticator app
+Step 10: Save your backup codes in a safe place",Medium,security two-factor authentication account protection,Company FAQ,No
+5,Mobile,White screen appears when first entering the application,"Step 1: Make sure VPN is turned off (VPN can block access)
+Step 2: Check your internet connection (minimum 2 Mbps required)
+Step 3: Clear app cache (Settings > Apps > [App Name] > Storage > Clear Cache)
+Step 4: Force close the app and restart it
+Step 5: If issue persists, try restarting your device
+Step 6: Update the app to the latest version
+Step 7: If still showing white screen, uninstall and reinstall the app
+Step 8: Contact support if the issue continues",Medium,white screen app launch troubleshooting,Manager Documents,Yes
+6,Mobile,Video not appearing after clicking on a lesson,"Step 1: Check your internet connection (videos require stable connection)
+Step 2: Make sure you are using the latest version of the app
+Step 3: Clear the app cache (Settings > Apps > [App Name] > Storage > Clear Cache)
+Step 4: Try refreshing the lesson page
+Step 5: Close the app completely and reopen it
+Step 6: Try accessing the video on a different device or network
+Step 7: Check if the video is available in your course
+Step 8: If video still doesn't appear, contact support with your course ID and lesson ID",Medium,video playback mobile troubleshooting,Manager Documents,Yes
+7,Mobile,App is slow or hangs frequently,"Step 1: Check your internet connection speed (minimum 2 Mbps recommended)
+Step 2: Close other apps running in the background
+Step 3: Clear app cache (Settings > Apps > [App Name] > Storage > Clear Cache)
+Step 4: Check if your device has enough free storage space (at least 500MB recommended)
+Step 5: Update the app to the latest version
+Step 6: Restart your device
+Step 7: If performance is still slow, try uninstalling and reinstalling the app
+Step 8: Contact support if the issue persists",Medium,performance app slow freezing,Manager Documents,No
+8,Windows,CMD Not Working Error,"Step 1: The error 'Exec command: Error: spawn C:\\Windows\\system32\\cmd.exe' means cmd.exe is missing or not working
+Step 2: Open PowerShell as Administrator
+Step 3: Run the following command: sfc /SCANNOW
+Step 4: Wait for the scan to complete (this may take 15-30 minutes)
+Step 5: If errors are found, the system will attempt to repair them automatically
+Step 6: Restart your computer after the scan completes
+Step 7: Try running the application again
+Step 8: If the error persists, contact IT support",Hard,cmd.exe windows error system,Manager Documents,No
+9,Windows,Infinite Loading Problem - Error aborted timed out,"Step 1: Make sure you can access admin.joacademy.net in your browser
+Step 2: Try accessing the site from a different network or restart your router
+Step 3: Restart your device
+Step 4: Delete the JoAcademy folder from AppData (C:\\Users\\[YourUsername]\\AppData\\Local\\JoAcademy)
+Step 5: Reinstall the application
+Step 6: Clear your browser cache and cookies
+Step 7: Disable VPN or proxy if active
+Step 8: If the issue persists, contact Ahmad Aqteish (IT) or submit a ticket to QA",Hard,infinite loading timeout error windows,Manager Documents,No
+10,Windows,White Screen Problem on Windows,"Step 1: Change your network or restart your router
+Step 2: Make sure there's no active VPN or antivirus software blocking the connection
+Step 3: In Windows search, type 'VPN' and go to settings
+Step 4: Turn off VPN if it's enabled
+Step 5: Go to Proxy Settings and turn it off
+Step 6: Clear browser cache and cookies
+Step 7: Try accessing the application again
+Step 8: If the problem persists, contact support",Medium,white screen windows network,Manager Documents,No
+11,Windows,Remote Desktop Issue - Error JDV-08,"Step 1: The error JDV-08 appears when Remote Desktop is enabled
+Step 2: This is a security feature that prevents access from virtual environments
+Step 3: To fix: Disable Remote Desktop on your device
+Step 4: Go to Settings > System > Remote Desktop
+Step 5: Toggle off 'Enable Remote Desktop'
+Step 6: Restart your device
+Step 7: Try accessing the application again
+Step 8: If the error persists, contact support with your device information",Medium,JDV-08 remote desktop error,Manager Documents,No
+12,Windows,Windows 7/8 Error on Windows 11,"Step 1: This error occurs when running legacy applications on newer Windows versions
+Step 2: Right-click the application executable file
+Step 3: Select 'Properties'
+Step 4: Go to 'Compatibility' tab
+Step 5: Check 'Run this program in compatibility mode for:'
+Step 6: Select 'Windows 7' or 'Windows 8' from the dropdown
+Step 7: Click 'Apply' then 'OK'
+Step 8: Try running the application again",Medium,windows compatibility error,Manager Documents,No
+9,macOS,Open Anyway Option Not Working,"Step 1: When trying to open the app from settings, the 'Open Anyway' option doesn't respond
+Step 2: Open Terminal (press Command+Space, then type Terminal)
+Step 3: Run this command: sudo spctl --master-disable
+Step 4: Enter your password when prompted
+Step 5: Go to System Preferences > Security & Privacy
+Step 6: Select 'Anywhere' for allowing apps
+Step 7: Try opening the application again
+Step 8: After the app works, re-enable security by running: sudo spctl --master-enable",Hard,macOS security open anyway,Manager Documents,No
+14,Technical,What do JDV error codes mean?,"JDV-01: Screen Recording Detected
+JDV-02: Virtual Machine or Virtual Environment
+JDV-03: Virtual Network (Usually due to VPN)
+JDV-04: Hacking Attempt
+JDV-05: Hacking Attempt
+JDV-06: Use of a Blocked Network
+JDV-07: Screen Recording or Hacking Tools
+JDV-08: Remote Desktop Enabled
+JDV-09: Use of Software that Violates Policies
+
+If you encounter any of these errors, review the specific cause and follow the appropriate troubleshooting steps. Contact support if you need assistance.",Medium,JDV error codes security,Manager Documents,No
+15,Technical,How do I get my UUID manually on Windows?,"Step 1: Open Command Prompt (CMD) as Administrator
+Step 2: Type the following command: for /F 'tokens=3' %A in ('reg query HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Cryptography /v MachineGuid') do @echo %A
+Step 3: Press Enter
+Step 4: Copy the UUID that appears in the output
+Step 5: You can paste this UUID into a SHA256 hash generator if needed
+Step 6: Save this UUID for your records
+Step 7: Contact support if you need help with your UUID",Medium,UUID windows system,Manager Documents,No
+16,Support,How do I report an issue properly?,"Step 1: Provide a clear description of the issue
+Step 2: Include relevant context (when, where, who encountered the issue)
+Step 3: Indicate if the issue is continuous or one-time
+Step 4: Attach screenshot or video if applicable
+Step 5: Include the affected item ID, session ID, or record ID
+Step 6: Provide clear, numbered steps to reproduce the issue
+Step 7: Include platform/environment information (web, mobile, browser)
+Step 8: If possible, include logs or error messages
+Step 9: Specify the device/browser details and app version
+Step 10: Submit the ticket with all required information",Medium,issue reporting ticket submission,Manager Documents,No
+17,Support,What information is needed for issue verification?,"The following information should be included when reporting an issue:
+
+Basic Information:
+- User name (must match system records)
+- Full description of the issue with context
+- Attachments (screenshot, video, or file)
+- Item ID or relevant identifier
+- Steps to Reproduce (STR) with clear numbered steps
+
+Technical Validation (if possible):
+- Logs or error messages
+- Backend or browser console logs
+- HTTP request/response status codes
+- User's device/browser details
+- App version and build number
+- Time and date of issue occurrence
+
+Internal Checks:
+- Reproducibility confirmation
+- Business impact assessment
+- Number of affected users
+- Criticality level (Low, Medium, High, Urgent)
+- Any workarounds or additional context",Hard,issue verification checklist,Manager Documents,No
+18,Support,What is the Issue Verification Checklist?,"The Issue Verification Checklist is used by Operations and Technical Support teams to ensure all required details are complete before assigning an issue to QA.
+
+Purpose: Ensure comprehensive information gathering before QA assignment
+
+Key sections:
+1. Basic Information (user name, description, attachments, item ID, STR)
+2. Technical Validation (logs, error messages, environment info)
+3. Internal Checks (reproducibility, business impact, criticality)
+4. Comments or Notes for QA
+
+All items in the checklist should be verified before submitting the issue to QA. This ensures QA receives complete, actionable information.",Medium,issue verification process,Manager Documents,No
+19,Support,How do I handle finance or payment issues?,"Step 1: Gather the following information from the user:
+- User ID or email address
+- Order ID
+- Payment method used
+- Screenshot of the payment transaction
+
+Step 2: Document the issue clearly (Invoice issue, payment failed, refund request, etc.)
+Step 3: Include all relevant transaction details
+Step 4: Attach screenshots of the payment screen or error message
+Step 5: Note the date and time of the transaction
+Step 6: Include any error messages received
+Step 7: Submit the ticket to the Finance team with all information
+Step 8: Follow up if the issue is not resolved within 24 hours",Medium,finance payment issue support,Manager Documents,No
+20,QA,What is Quality Assurance (QA)?,"Quality Assurance is a systematic process of testing and evaluating software to ensure it meets quality standards and user expectations. Key aspects:
+- Identifies bugs, defects, and issues before users encounter them
+- Ensures functionality, reliability, usability, and performance
+- Uses various testing methods: manual testing, automated testing, functional testing, performance testing, user acceptance testing
+- Essential for delivering high-quality software and maintaining customer satisfaction
+- Performed throughout the development lifecycle, not just at the end",Easy,QA quality assurance definition,Company FAQ,No
+21,QA,What are the different types of testing?,"Functional Testing: Verifies that all features work as intended
+Performance Testing: Checks how the system performs under load
+Security Testing: Identifies vulnerabilities and security risks
+Usability Testing: Evaluates user experience and interface design
+Compatibility Testing: Ensures software works across different devices and browsers
+Regression Testing: Verifies that new changes don't break existing functionality
+User Acceptance Testing (UAT): Final testing by end users before release
+Smoke Testing: Quick preliminary testing to identify critical issues
+Integration Testing: Tests how different modules work together
+Unit Testing: Tests individual components or functions",Medium,testing types QA methodology,Company FAQ,No
+22,QA,What is a bug vs a defect?,"Bug: A specific flaw or error in the software code that causes unexpected behavior
+Defect: The broader term that includes bugs and any deviation from expected behavior
+
+Key differences:
+- Bug = specific coding error
+- Defect = any issue including design flaws, usability problems, or performance issues
+
+In QA terminology:
+- These terms are often used interchangeably
+- Technically, a defect is the umbrella term
+- When reporting issues to QA, always provide: steps to reproduce, expected behavior, actual behavior",Medium,bug defect QA terminology,Company FAQ,No
+23,QA,How do I report a bug or issue?,"Step 1: Verify that the issue is reproducible (can happen consistently)
+Step 2: Gather information: Steps to reproduce, Expected behavior, Actual behavior, Browser/Device, Attachments (screenshots or videos)
+Step 3: Go to Support > Report a Bug or use the bug reporting tool
+Step 4: Fill in the bug report form with all gathered information
+Step 5: Be as detailed as possible in the description
+Step 6: Include screenshots or videos showing the issue
+Step 7: Specify the severity: Critical, High, Medium, or Low
+Step 8: Click 'Submit Bug Report'
+Step 9: You will receive a bug ID for tracking
+Step 10: The QA team will investigate and update you on the status",Medium,bug reporting issue tracking,Company FAQ,No
+24,QA,What is the difference between manual and automated testing?,"Manual Testing:
+- QA engineers manually execute test cases without automation tools
+- Advantages: Flexible, exploratory testing, better for UI/UX testing
+- Disadvantages: Time-consuming, error-prone, not scalable
+
+Automated Testing:
+- Uses scripts and tools to run tests automatically
+- Advantages: Fast, repeatable, scalable, efficient for regression testing
+- Disadvantages: High initial setup cost, not suitable for exploratory testing
+
+Best Practice: Use both approaches
+- Manual testing for new features and exploratory testing
+- Automated testing for regression and repetitive tests",Medium,manual testing automated testing comparison,Company FAQ,No
+25,QA,What is regression testing and why is it important?,"Regression Testing: The process of testing previously tested functionality to ensure that new changes or updates don't break existing features
+
+Why it's important:
+- Prevents new bugs from breaking old features
+- Ensures software stability after updates
+- Saves time by automating repetitive tests
+- Increases confidence in software quality
+- Reduces risk of production issues
+
+Key point: Regression testing is typically automated because it involves running the same tests repeatedly. It's performed after bug fixes, updates, or new feature releases.",Medium,regression testing quality assurance,Company FAQ,No
+26,QA,What is a test case?,"A test case is a set of conditions or steps designed to verify a specific feature or functionality of the software.
+
+A good test case includes:
+- Test Case ID: Unique identifier
+- Title: Brief description of what is being tested
+- Precondition: What must be true before running the test
+- Steps: Detailed steps to execute the test
+- Expected Result: What should happen if the feature works correctly
+- Actual Result: What actually happened (filled in after execution)
+- Status: Pass or Fail
+- Priority: Critical, High, Medium, or Low
+
+Test cases are the foundation of systematic testing and help ensure comprehensive coverage of all features.",Medium,test case QA documentation,Company FAQ,No
+27,QA,How do I write a good test case?,"Step 1: Be specific and clear - write test cases that anyone can understand and execute
+Step 2: Keep it simple - one test case should test one specific feature or scenario
+Step 3: Include preconditions - clearly state what must be set up before running the test
+Step 4: Write detailed steps - each step should be numbered and specific
+Step 5: Define expected results - be clear about what should happen if the feature works
+Step 6: Make it repeatable - test cases should produce the same result every time
+Step 7: Avoid assumptions - don't assume the tester knows the system
+Step 8: Use clear language - avoid jargon and be concise
+Step 9: Include edge cases - test boundary conditions and unusual scenarios
+Step 10: Review and update - regularly review and update test cases as features change",Medium,test case writing best practices,Company FAQ,No
+28,QA,What is test coverage?,"Test Coverage: A measure of how much of the software code or functionality is tested by your test cases. It's expressed as a percentage.
+
+Example: 80% test coverage means 80% of the code or features are covered by tests
+
+Types of coverage:
+- Code Coverage: Percentage of code lines tested
+- Feature Coverage: Percentage of features tested
+- Requirement Coverage: Percentage of requirements tested
+
+Goal: Aim for at least 80-90% test coverage for critical features
+- 100% coverage is ideal but often not practical
+- Tools like JaCoCo, Istanbul, or Codecov can measure code coverage automatically",Medium,test coverage metrics QA,Company FAQ,No
+29,QA,What is the difference between QA and QC?,"QA (Quality Assurance):
+- Process-oriented approach
+- Focused on preventing defects by improving development processes
+- Proactive approach
+- Applies to entire project
+- Performed throughout development
+
+QC (Quality Control):
+- Product-oriented approach
+- Focused on identifying and fixing defects in the finished product
+- Reactive approach
+- Applies to specific deliverables
+- Performed at the end
+
+In practice: Both QA and QC work together to ensure quality",Medium,QA vs QC quality management,Company FAQ,No
+30,QA,What is a test plan?,"A Test Plan is a comprehensive document that outlines the testing strategy for a project. It includes:
+- Scope: What will and won't be tested
+- Objectives: Goals of testing
+- Test Strategy: Approach and methodology
+- Resources: Team members, tools, and environment
+- Schedule: Timeline for testing activities
+- Test Cases: What will be tested
+- Entry and Exit Criteria: When to start and stop testing
+- Risk Assessment: Potential risks and mitigation
+- Deliverables: What will be produced
+- Sign-off: Approval from stakeholders
+
+A good test plan ensures organized, structured, and comprehensive testing.",Medium,test plan QA documentation,Company FAQ,No
+31,QA,What is the difference between black box and white box testing?,"Black Box Testing:
+- Tester doesn't have access to internal code
+- Tests the software from user perspective
+- Focus on inputs and outputs
+- Advantages: Simulates real user experience
+- Disadvantages: Limited coverage of edge cases
+
+White Box Testing:
+- Tester has access to internal code
+- Tests internal logic and code paths
+- Focus on code structure and logic
+- Advantages: Better coverage of edge cases
+- Disadvantages: Requires technical knowledge
+
+Best Practice: Use both approaches for comprehensive testing
+- Black box for user perspective
+- White box for code quality",Medium,black box white box testing types,Company FAQ,No
+32,General,What are the business hours of the company?,"Business hours: Monday through Friday, 9:00 AM to 6:00 PM (your local timezone)
+The company is closed on weekends and public holidays
+For support outside business hours: Submit a ticket (will be addressed next business day)
+Live chat support: Available only during business hours
+For urgent after-hours issues: Mark your ticket as urgent (prioritized next business day)",Easy,business hours company information,Company FAQ,No
+33,General,What is the company's privacy policy?,"Our privacy policy outlines how we collect, use, and protect your personal data.
+
+Key points:
+- We collect only necessary information for service delivery
+- Your data is encrypted and stored securely
+- We do not sell your data to third parties
+- You have the right to access and delete your data
+- We comply with GDPR, CCPA, and other privacy regulations
+- Cookies are used to improve user experience
+- You can opt-out of non-essential cookies
+
+For the full privacy policy: Visit our website or contact privacy@company.com",Medium,privacy policy data protection,Company FAQ,No
+34,General,How do I provide feedback about the platform?,"Step 1: Log into your account
+Step 2: Look for 'Feedback', 'Suggestions', or 'Contact Us' option
+Step 3: Click on the feedback option
+Step 4: Fill in the feedback form with your comments, suggestions, or complaints
+Step 5: Be specific about what you liked or what could be improved
+Step 6: Include your contact information so we can follow up if needed
+Step 7: Click 'Submit Feedback'
+Step 8: Your feedback is valuable and helps us improve the platform
+Step 9: We review all feedback and implement improvements based on user suggestions
+Step 10: Thank you for helping us make the platform better!",Easy,feedback suggestions improvement,Company FAQ,No
+35,General,How do I know the company's refund policy?,"Our refund policy:
+- Refunds are available within 30 days of purchase
+- Courses purchased can be refunded if less than 25% of content has been accessed
+- To request a refund: Contact support@company.com with your order number
+- Refunds are processed within 5-7 business days
+- Refunds are issued to the original payment method
+- If you have specific questions about your purchase: Contact support
+- Some promotional or discounted purchases may have different refund terms
+- Please review the specific terms at the time of purchase",Medium,refund policy payment terms,Company FAQ,No
+36,General,How can I upgrade my account?,"Step 1: Log into your account
+Step 2: Go to Settings > Subscription or Billing
+Step 3: Click 'View Plans' or 'Upgrade'
+Step 4: Compare available plans (Free, Basic, Premium, Enterprise)
+Step 5: Select the plan that best fits your needs
+Step 6: Click 'Upgrade to [Plan Name]'
+Step 7: Review the pricing and features
+Step 8: Complete the payment process
+Step 9: Your account will be upgraded immediately
+Step 10: You will have access to all features of your new plan",Easy,account upgrade subscription plans,Company FAQ,No
+37,General,What payment methods do you accept?,"We accept the following payment methods:
+- Credit Cards: Visa, MasterCard, American Express
+- Debit Cards: Visa Debit, MasterCard Debit
+- Digital Wallets: PayPal, Apple Pay, Google Pay
+- Bank Transfer: Direct bank transfer available for enterprise customers
+
+Security:
+- All payments are processed securely using industry-standard encryption
+- Invoices are issued for all transactions
+- We do not store credit card information on our servers
+
+For questions about payment: Contact billing@company.com",Easy,payment methods billing,Company FAQ,No
+38,General,How do I cancel my subscription?,"Step 1: Log into your account
+Step 2: Go to Settings > Subscription or Billing
+Step 3: Click 'Manage Subscription'
+Step 4: Click 'Cancel Subscription' button
+Step 5: You will be asked to confirm the cancellation
+Step 6: Select a reason for cancellation (optional)
+Step 7: Click 'Confirm Cancellation'
+Step 8: Your subscription will be cancelled at the end of the current billing period
+Step 9: You will retain access until the end of the billing period
+Step 10: You will receive a confirmation email with cancellation details",Medium,subscription cancellation,Company FAQ,No
+39,General,Do you offer discounts for students or non-profits?,"Yes, we offer special discounts for eligible organizations:
+- Students: 50% discount with valid student email or ID
+- Non-profits: 40% discount with 501(c)(3) documentation
+- Educational Institutions: Custom pricing available
+- Volume Discounts: Available for bulk purchases
+
+To apply for a discount:
+Step 1: Contact sales@company.com with proof of eligibility
+Step 2: Processing typically takes 2-3 business days
+Step 3: Discounts cannot be combined with other promotions",Medium,discounts special offers,Company FAQ,No
+40,General,What is your data retention policy?,"Our data retention policy:
+- Active account data: Retained as long as your account is active
+- After account deletion: Data retained for 30 days for recovery purposes
+- After 30 days: All personal data is permanently deleted
+- Backup copies: May be retained for up to 90 days for disaster recovery
+- GDPR compliance: We comply with GDPR right to be forgotten requirements
+- Transaction records: Retained for 7 years for tax and legal purposes
+- Data export or deletion: You can request anytime
+
+For detailed information: Contact privacy@company.com",Medium,data retention policy compliance,Company FAQ,No
+41,General,How do I export my data?,"Step 1: Log into your account
+Step 2: Go to Settings > Data > Export Data
+Step 3: Select the data you want to export (Profile, Courses, Certificates, etc.)
+Step 4: Choose the format (CSV, JSON, PDF)
+Step 5: Click 'Export'
+Step 6: The export will be prepared and you'll receive a download link via email
+Step 7: Download link is valid for 7 days
+Step 8: Your data will be in a standard format that can be imported elsewhere
+Step 9: For large exports, this may take a few minutes
+Step 10: Contact support if you have issues with the export",Medium,data export GDPR,Company FAQ,No
+42,Course,Where can I find the available courses?,"Step 1: Log into your account
+Step 2: Click 'Courses' or 'Learning' in the main navigation menu
+Step 3: You will see a list of all available courses
+Step 4: Courses are organized by category (Beginner, Intermediate, Advanced)
+Step 5: Use the search bar to find specific courses
+Step 6: Each course shows title, description, duration, and difficulty level
+Step 7: Click on any course to see more details including prerequisites
+Step 8: Some courses may have prerequisites that you need to complete first",Easy,courses learning materials,Company FAQ,No
+43,Course,How do I enroll in a course?,"Step 1: Log into your account
+Step 2: Navigate to Courses section
+Step 3: Find the course you want to take
+Step 4: Click on the course title to open the course details page
+Step 5: Click 'Enroll Now' or 'Start Course' button
+Step 6: If the course has prerequisites, you must complete them first
+Step 7: Accept the course terms and conditions if prompted
+Step 8: Click 'Confirm Enrollment'
+Step 9: The course will now appear in your 'My Courses' section
+Step 10: Click 'Begin Course' to start learning immediately",Easy,course enrollment learning,Company FAQ,No
+44,Course,How do I download course materials?,"Step 1: Log into your account
+Step 2: Go to Courses and select the course you are enrolled in
+Step 3: Click 'Course Materials' or 'Resources' tab
+Step 4: You will see a list of available materials (PDFs, videos, documents, etc.)
+Step 5: Click the 'Download' button next to the material you want
+Step 6: The file will download to your default downloads folder
+Step 7: Some materials may require you to be online to access them
+Step 8: If download fails, try refreshing the page and trying again
+Step 9: If the problem persists, contact support with the course and material name",Medium,course materials downloads resources,Company FAQ,No
+45,Course,How do I get a certificate after completing a course?,"Step 1: Complete all course modules and assignments
+Step 2: Make sure your final score meets the passing requirement (usually 70% or higher)
+Step 3: Go to your course page and click 'View Certificate'
+Step 4: If you don't see this option, you may not have met completion requirements
+Step 5: Check 'Course Progress' section to see what's remaining
+Step 6: Once eligible, click 'Download Certificate' to get a PDF copy
+Step 7: You can also access certificates from 'Achievements' or 'Certificates' section
+Step 8: Share your certificate on LinkedIn or other platforms as needed",Medium,certificates course completion achievements,Company FAQ,No
+46,Account,How do I update my profile information?,"Step 1: Log into your account
+Step 2: Click your profile icon (top-right corner)
+Step 3: Select 'Profile Settings' or 'My Account'
+Step 4: Click 'Edit Profile' button
+Step 5: Update the fields you want to change (name, email, phone, etc.)
+Step 6: For email changes, you may need to verify the new email address
+Step 7: Click 'Save Changes' button
+Step 8: Check your new email for a verification link if you changed email
+Step 9: Click the verification link to complete the email change",Easy,profile account information update,Company FAQ,No
+47,Account,How do I change my email address?,"Step 1: Log into your account
+Step 2: Go to Settings > Account or Profile Settings
+Step 3: Find the 'Email Address' field
+Step 4: Click 'Change Email' button
+Step 5: Enter your new email address
+Step 6: Enter your current password to confirm the change
+Step 7: Click 'Send Verification Link'
+Step 8: Check your new email for a verification message
+Step 9: Click the verification link in the email
+Step 10: Your email address will be updated",Medium,email change account settings,Company FAQ,No
+48,Account,How do I delete my account?,"Step 1: Log into your account
+Step 2: Go to Settings > Account or Security
+Step 3: Scroll to the bottom and find 'Delete Account' option
+Step 4: Click 'Delete Account' button
+Step 5: Read the warning that this action is permanent
+Step 6: Enter your password to confirm deletion
+Step 7: Read the confirmation message carefully
+Step 8: Click 'Yes I want to delete my account' to confirm
+Step 9: Your account and all data will be permanently deleted
+Step 10: You will be logged out and redirected to the homepage",Hard,account deletion data removal,Company FAQ,No
+49,Technical,What are the system requirements to use this platform?,"Operating System: Windows 7 or later, Mac OS 10.12 or later, or Linux (Ubuntu 16.04+)
+Browser: Chrome, Firefox, Safari, or Edge (latest versions recommended)
+Internet Connection: Minimum 2 Mbps for smooth experience
+RAM: Minimum 4GB RAM (8GB recommended for optimal performance)
+Storage: At least 500MB free disk space
+JavaScript: Must be enabled in your browser
+Cookies: Must be enabled for login to work
+Pop-ups: Should be allowed for some features
+Video Content: Flash Player or HTML5 support needed
+Mobile: iOS 10+ or Android 5.0+ for mobile app",Medium,system requirements technical specifications,Company FAQ,No
+50,Technical,Why is the platform loading slowly?,"Step 1: Check your internet connection speed (minimum 2 Mbps required)
+Step 2: Clear your browser cache and cookies (often resolves slowness)
+Step 3: Disable browser extensions that might interfere (ad blockers, VPNs, etc.)
+Step 4: Try using a different browser to see if the issue persists
+Step 5: Close other applications using bandwidth (downloads, streaming, etc.)
+Step 6: Restart your browser and try again
+Step 7: If on mobile, ensure you have a strong WiFi or cellular signal
+Step 8: Check if the platform status page shows any ongoing maintenance
+Step 9: If slowness persists across multiple devices, contact support",Medium,performance troubleshooting speed,Company FAQ,No

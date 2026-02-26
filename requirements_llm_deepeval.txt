@@ -1,0 +1,27 @@
+# LLM + RAG + DeepEval Requirements
+# Install with: pip install -r requirements_llm_deepeval.txt
+
+# Core LLM & API
+groq==0.4.2
+
+# Vector Search & Embeddings
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# Quality Evaluation
+deepeval==0.21.0
+
+# Data Processing
+numpy>=1.24.0,<2.0.0
+pandas==2.0.3
+
+# Utilities
+python-dotenv==1.0.0
+
+# Note: deepeval will install its own compatible versions of:
+# - langchain
+# - langchain-core
+# - langchain-openai
+# - ragas
+# - datasets
+# - pytest and related packages
